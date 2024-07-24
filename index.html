@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // IF...ELSE - SE..SENAO
+      const nome = prompt("Informe seu nome");
+
+      let idade = prompt("Informe sua idade");
+      idade = parseInt(idade);
+
+      if (idade < 15) {
+        alert("Você é uma criança");
+      } else {
+        if (idade >= 15 && idade < 18) {
+          alert("Você é adolescente");
+        } else {
+          if (idade >= 18 && idade < 60) {
+            alert("Você é Adulto");
+          } else {
+            alert("Você é Idoso");
+          }
+        }
+      }
+
+      if (idade < 15) {
+        alert("Você é uma criança");
+      } else if (idade >= 15 && idade < 18) {
+        alert("Você é adolescente");
+      } else if (idade >= 18 && idade < 60) {
+        alert("Você é Adulto");
+      } else {
+        alert("Você é Idoso");
+      }
+
+      // SWITCH - ESCOLHA
+
+       // PRATICANDO
+ // CRIE UMA ESTRUTURA DE IF E ELSE PARA SABER SE O ALUNO FOI APROVADO
+ // ,REPROVADO OU RECUPERAÇÃO. 
+ // CASO A MEDIA SEJA >= A 7, EXIBA APROVADO
+ // CASO A MEDIA SEJA < 7 E > 4, EXIBA ALUNO DE RECUPERAÇÃO.
+ // CASO A MEDIA SEJA < 4, EXIBA ALUNO REPROVADO.
+
+const media = 4.5
+
+if (media >= 7) {
+    alert("ALUNO APROVADO")
+}
+else if (media < 7 && media > 4){
+    alert("ALUNO DE RECUPERAÇÃO")
+}
+else{ 
+    alert("ALUNO REPROVADO")
+}
+    </script>
+  </body>
+</html>

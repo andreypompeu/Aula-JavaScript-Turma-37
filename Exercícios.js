@@ -1,0 +1,22 @@
+ // PRATICANDO
+ // CRIE UMA ESTRUTURA DE IF E ELSE PARA SABER SE O ALUNO FOI APROVADO
+ // ,REPROVADO OU RECUPERAÇÃO. 
+ // CASO A MEDIA SEJA >= A 7, EXIBA APROVADO
+ // CASO A MEDIA SEJA < 7 E > 4, EXIBA ALUNO DE RECUPERAÇÃO.
+ // CASO A MEDIA SEJA < 4, EXIBA ALUNO REPROVADO.
+
+const media = 4.5
+
+if (media >= 7) {
+    alert("ALUNO APROVADO")
+}
+else if (media < 7 && media > 4){
+    alert("ALUNO DE RECUPERÇÃO")
+}
+else{ 
+    alert("ALUNO REPROVADO")
+}
+
+
+
+
